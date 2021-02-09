@@ -11,5 +11,7 @@ class Car extends Model
     public $brand;
     public $licencePlate;
 
-    
+    public function get_model() {
+        return $this->model;
+    }
 }
